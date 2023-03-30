@@ -29,7 +29,7 @@
 .image {
   object-fit: cover;
   width: 100vw;
-  height: 99vh;
+  height: 100vh;
   position: absolute;
 }
 
