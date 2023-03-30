@@ -45,6 +45,8 @@
 }
 
 .leftButton {
+  width: 10vw;
+  height: 5vh;
   background: black;
   border: none;
   border-radius: 20px;
@@ -55,6 +57,8 @@
 }
 
 .rightButton {
+  width: 10vw;
+  height: 5vh;
   background: black;
   border: none;
   border-radius: 20px;
