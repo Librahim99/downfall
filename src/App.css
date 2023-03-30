@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+/* .container {
+  max-width: 100vw;
+  max-height: 100vh;
+  position: relative;
+} */
+
+.text1 {
+  color: white;
+  position: absolute;
+  bottom: 20vh;
+  left: 10vw;
+  background-color: black;
+  transition: 1s;
+}
+
+.text2 {
+  color: white;
+  position: absolute;
+  bottom: 12.5vh;
+  right: 10vw;
+  background-color: black;
+  transition: 1s;
+}
+
+.image {
+  object-fit: cover;
+  width: 100vw;
+  height: 99vh;
+  position: absolute;
+}
+
+.goToSlide {
+  background: none;
+  border: solid 1px black;
+  border-radius: 10px;
+  height: 5vh;
+  width: 30vw;
+  position: absolute;
+  top: 47.5vh;
+  left: 35vw;
+}
+
+.leftButton {
+  background: black;
+  border: none;
+  border-radius: 20px;
+  position: absolute;
+  top: 50vh;
+  left: 2vw;
+  color: white;
+}
+
+.rightButton {
+  background: black;
+  border: none;
+  border-radius: 20px;
+  position: absolute;
+  top: 50vh;
+  right: 2vh;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
